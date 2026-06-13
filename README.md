@@ -3,19 +3,23 @@
  
 ABSTRACT:-
      The Library Management System is a console-based application developed using the C programming language. The purpose of this project is to automate the management of library records. It helps in maintaining book details, issuing books, returning books, and storing records efficiently. The project uses linked lists for dynamic data storage and file handling for permanent data storage. This system reduces manual work and improves the accuracy of maintaining library records.
+     
 INTRODUCTION:-
         A library contains a large number of books and maintaining records manually is a time-consuming process. The Library Management System is designed to simplify library operations. It enables librarians to add, update, delete, search, issue, and return books efficiently. The system also stores issued book records and maintains the availability of books.
+        
 OBJECTIVE:-
 * To automate library management activities.
 * To maintain book records efficiently.
 * To reduce manual paperwork.
 * To store data permanently using files.
 * To provide quick searching and updating of records.
+  
 SOFTWARE REQUIREMENTS:-
 * Operating System: Linux
 * Programming Language: C
 * Compiler: GCC
 * Editor: Vim / VS Code
+  
 SYSTEM DESIGN:-
 Book Structure
 The book structure stores information related to books available in the library.
@@ -24,6 +28,7 @@ Fields:
 * Title
 * Author
 * Quantity
+  
  Issue Structure:-
 The issue structure stores information related to issued books.
 Fields:
@@ -35,6 +40,7 @@ Fields:
 * Due Date
 * Return Date
 * Fine Amount
+  
 MODULES OF THE PROJECT:-
  1. Add Book
 This module allows the user to add new books into the library database. The Book ID is generated automatically, and the title, author name, and quantity are stored.
